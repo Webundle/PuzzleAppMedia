@@ -1,6 +1,6 @@
 <?php
 
-namespace Puzzle\Admin\MediaBundle\Controller;
+namespace Puzzle\App\MediaBundle\Controller;
 
 use GuzzleHttp\Exception\BadResponseException;
 use Puzzle\ConnectBundle\ApiEvents;
