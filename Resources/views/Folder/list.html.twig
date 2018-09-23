@@ -1,0 +1,5 @@
+{% if folders is not empty %}
+    {% for folder in folders %}
+        {{ dump(folder) }}<br/>
+    {% endfor %}
+{% endif %}

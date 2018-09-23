@@ -1,0 +1,8 @@
+# Folder
+app_media_folder_list:
+    path:     /list
+    defaults: { _controller: 'PuzzleAppMediaBundle:Folder:list' }
+
+app_media_folder_show:
+    path:     /{id}
+    defaults: { _controller: 'PuzzleAppMediaBundle:Folder:show' }

@@ -1,0 +1,7 @@
+services:
+    # Twig extension
+    app.media.twig.extension:
+        class: Puzzle\App\MediaBundle\Twig\PuzzleAppMediaExtension
+        arguments: [ '@request_stack', '@event_dispatcher', '@puzzle_connect.api_client' ]
+        tags:
+          - { name: twig.extension }
