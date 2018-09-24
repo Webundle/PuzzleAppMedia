@@ -28,11 +28,10 @@
 		"webundle/puzzle-admin-media" : "^1.0"
 	},
 	"autoload" : {
-		"psr-0" : {
-			"Webundle\\Puzzle\\App\\MediaBundle" : ""
+		"psr-4" : {
+			"Puzzle\\App\\MediaBundle\\" : ""
 		}
 	},
-	"target-dir" : "Webundle/Puzzle/App/MediaBundle",
 	"extra" : {
 		"branch-alias" : {
 			"dev-master" : "1.0-dev"
